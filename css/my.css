@@ -53,6 +53,19 @@ background-position:center;
 	font-size: 30px;
 	color:#272A31;
   text-align: center;}
+  @media (max-width: 768px) {
+    .case-study-title {
+    text-align: initial; /* Adjust this value for smaller screens */
+    }
+  }
+.heading-paragraph{
+  text-align: center; 
+}
+@media (max-width: 768px) {
+  .heading-paragraph {
+  text-align: initial; /* Adjust this value for smaller screens */
+  }
+}
 
   .case-study-title2{
     font-size: 30px;
