@@ -1047,7 +1047,8 @@
  .pricing-title,
  .features-title,
  .price {
-   color: #272A31;
+   font-size: large;
+
  }
  
  .pricing-title,
@@ -1056,6 +1057,7 @@
    text-transform: uppercase;
    font-family: "Montserrat", sans-serif;
    letter-spacing: 2px;
+ 
  }
  
  .table-price {
@@ -1067,6 +1069,7 @@
  .price,
  .table-month {
    font-weight: 400;
+   opacity: 0;
  }
  
  .table-month {
@@ -1080,6 +1083,7 @@
  
  .features-list {
    margin-bottom: 21px;
+   text-align:start ;
    
  }
  
@@ -1088,7 +1092,7 @@
    font-size: 16px;
    padding: 20px 20px 20px 7px;
    display: inline-block;
-   font-family: "Montserrat", sans-serif;
+   font-family: "Source Sans 3";
  }
  
  .features-list li i {
